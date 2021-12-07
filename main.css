@@ -1,0 +1,87 @@
+@import url('https://rsms.me/inter/inter.css');
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 338px;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+.imagineu {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    width: 338px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+.card-body {
+    padding: 24px;
+}
+.titlu {
+  
+  color: #18113c;
+  font-family: Inter, sans-serif ;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-top: 0;
+  margin: 0px, 0px, 16px
+  
+}
+.icon{
+  width: 14px;
+  vertical-align: middle;
+}
+
+.text{
+  color: #5C5776;
+  margin-right: .5rem;
+  font-family: Inter, sans-serif ;
+  font-size: 14px;
+}
+
+.star{
+  padding-top: 12px;
+  vertical-align: middle;
+}
+
+.yellow{
+  color: #ffd000;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  font-family: Inter, sans-serif ;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.grey{
+  color: #a8a3b9;
+  margin-right: .5rem;
+  font-family: Inter, sans-serif ;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.card-footer{
+  border-top: 1px solid #ecebf1;
+  padding: 1rem;
+}
+
+.avatar{
+  border-radius: 50%!important;
+  width: 24px;
+  margin-left: 1rem;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.bookmark{
+  width: 14px;
+  padding-left: 7.5em;
+  padding-top: 15px;
+}
